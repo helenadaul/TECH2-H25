@@ -28,11 +28,11 @@ def argmax(lst):
 
     for i in range(n):
         value = lst[i]
-        if value > value_max
-        # Update index of largest element
-        imax = i
-        # Update the largest element
-        value_max = value
+        if value > value_max:
+            # Update index of largest element
+            imax = i
+            # Update the largest element
+            value_max = value
 
     return imax
 
